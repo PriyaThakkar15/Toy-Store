@@ -2,6 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    font-family: 'Varela Round', sans-serif;
+    /*line-height: 48px;*/
 }
 
 .nav-fix {
@@ -100,10 +102,6 @@ html, body {
 .middle-content {
     border-radius: 20px;
 }
-h1 {
-    font-family: "Varela Round", sans-serif;
-    line-height: 48px;
-}
 
 .rondedbtn {
     border-radius: 40px;
@@ -119,14 +117,6 @@ h1 {
 .haze {
     background-color: #f8f8f8;
 }
-
-/*.wrap {*/
-    /*width: 100%;*/
-    /*max-width: 1200px;*/
-    /*justify-content: center;*/
-    /*text-align: center;*/
-    /*background-color: transparent;*/
-/*}*/
 
 .home-category-img-one {
 
@@ -214,6 +204,21 @@ h1 {
     background-repeat: no-repeat;
     background-attachment: scroll, fixed;
     background-position:0px 0px, 50% 50%;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.intro{
+    max-width: 600px;
+    margin-bottom: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-items: center;
+    text-align: center;
 }
 
 

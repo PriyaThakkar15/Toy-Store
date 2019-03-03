@@ -233,6 +233,29 @@ html, body {
 {
     border-radius: 20px;
 }
+.subscriber-info{
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+.icon{
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+    padding: 18px 16px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #a5c926;
+}
+.icon-img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.text-green{
+    color: #a5c926;
+}
 
 @media (max-width: 467px) {
 
